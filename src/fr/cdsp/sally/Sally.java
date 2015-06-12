@@ -14,8 +14,6 @@ public class Sally
 		String workingFolder = args[0];
 		String validatorCSV = args[1];
 		System.out.println("Recherche des fichier pdf");
-//		String workingFolder = "/home/raphael/Documents/bequali/LOT 1/LIVRAISON 2 VERSIONS";
-//		String validatorCSV = "/home/raphael/Downloads/cdsp_bequali_sp5_bordereau_de_controle_qualite - Préparation.csv";
 		FileExplorer fe = new FileExplorer(workingFolder);
 		Validator validator = new Validator(validatorCSV);
 		
