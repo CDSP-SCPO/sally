@@ -32,7 +32,7 @@ public class Constants
 	 */
 	private static String getPathSeparator()
 	{
-		if (System.getProperty("os.name").toLowerCase().equals("linux"))
+		if (System.getProperty("os.name").toLowerCase().equals("linux") || System.getProperty("os.name").toLowerCase().equals("mac os x"))
 		{
 			return "/";
 		}
