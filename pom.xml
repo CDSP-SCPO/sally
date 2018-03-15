@@ -11,9 +11,12 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+    		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 
 	<build>
+		<sourceDirectory>${basedir}/src/fr/cdsp/sally</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -54,12 +57,12 @@
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
-			<version>1.8.9</version>
+			<version>1.8.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>preflight</artifactId>
-			<version>1.8.9</version>
+			<version>1.8.12</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-logging</groupId>
